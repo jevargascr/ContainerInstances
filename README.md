@@ -11,7 +11,7 @@
 * Creacion de VCN y subredes, una publica y una privada
 * Creacion de Internet Gateway y entrada en la tabla de rutas para la subred publica
 * Creacion de NAT Gateway y entrada en la tabla de rutas para la subred privada
-+ Configuracion de Security Lists:
+* Configuracion de Security Lists:
   + Para la subred publica permitir el trafico por los puertos 80 y 3306
   + Para la subred privada permitir todo el trafico desde la subred publica
   
