@@ -1,9 +1,7 @@
 # Bienvenidos a Oracle Racing To The Cloud
 ## Laboratorio de Container Instances 
 ## Despliegue de Wordpress
-#### El laboratorio consiste en el despliegue de Wordpress en una subred privada utilizando una Base de Datos MySQL creada como otro container dentro de la misma instancia. La seguridad es lo mas importante !!! 
-
-#### Para acceder a nuestro sistema Wordpress vamos a crear un Load Balancer publico protegido por un WAF (Web Appplication Firewall) como proteccion a posibles ciberataques
+#### El laboratorio consiste en el despliegue de dos contenedores dentro de una instancia, el primer contenedor almacenara la solución de Wordpress y el segundo contenedor la base de datos MySQL. La seguridad es lo más importante por lo que estos contenedores estarán en una sub red privada y la solución será expuesta por un balanceador de cargas público como protección a posibles ciberataques!!!
 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Arquitectura.png)
 
