@@ -5,7 +5,7 @@
 
 #### Para acceder a nuestro sistema Wordpress vamos a crear un Load Balancer publico protegido por un WAF (Web Appplication Firewall) como proteccion a posibles ciberataques
 
-![](https://github.com/jevargascr/RacingToCloud/blob/main/images/Arquitectura.png)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Arquitectura.png)
 
 #### Prerrequisitos para la realizacion del Laboratorio
 * Creacion de VCN y subredes, una publica y una privada
