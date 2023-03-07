@@ -56,6 +56,14 @@ Asignamos un nombre al container y seleccionamos la imagen a descargar desde el 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_2.jpg)
 
 Configuracion de las variables de ambiente necesarias para el despliegue del container MySQL
+
+Variable  | Value
+------------- | -------------
+WORDPRESS_DB_HOST  | 127.0.0.1
+WORDPRESS_DB_USER  | wordpress
+WORDPRESS_DB_PASSWORD  | wordpress
+WORDPRESS_DB_NAME  | wordpress
+
 Click en crear another container
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_4.jpg)
