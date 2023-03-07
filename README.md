@@ -11,7 +11,7 @@
   + Para la subred publica permitir el trafico por los puertos 80 y 3306
   + Para la subred privada permitir todo el trafico desde la subred publica
   
-# Prerrequisitos creación de la rede
+## Prerrequisitos creación de la rede
 ### Menu principal > Networking > Virtual Cloud Networks
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN.png)
 Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defecto “Create VCN with Internet Connectivity” e introduciremos los siguientes valores:
