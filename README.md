@@ -11,7 +11,7 @@
   + Para la subred publica permitir el trafico por los puertos 80 y 3306
   + Para la subred privada permitir todo el trafico desde la subred publica
   
-# 1. Prerrequisitos creación de la Rede
+# Prerrequisitos creación de la Rede
 ### Menu principal > Networking > Virtual Cloud Networks
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN.png)
 Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defecto “Create VCN with Internet Connectivity” e introduciremos los siguientes valores:
@@ -27,7 +27,7 @@ Navegar a Subnets -> public subnet-VCN -> Default Security List for VCN  -> Add 
 Procederemos a editar la lista de seguridad de la sub red privada, Navegar a Subnets -> private subnet-VCN -> Default Security List for VCN  -> Add Ingress Rule y agregar la siguiente ruta
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/PrivateSL.png)
 
-# Creación de Container Instance
+# 1. Creación de Container Instance
 
 ### Menu principal >Developer Services > Container instances
 
