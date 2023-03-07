@@ -36,12 +36,12 @@ Procederemos a editar la lista de seguridad de la sub red privada, navegar a Sub
 
 ### Menu principal >Developer Services > Container instances
 
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_instance.jpg)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/ContainerInstance1.png)
 
 ## Configuración de la instancia
 Debemos ingresar la informacion del nombre de la instancia, AD, Shape y capacidades de computo(OCPU y Memoria RAM)
 
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_instance1.jpg)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/ContainerInstance2.png)
 
 En la parte de Networking seleccionamos la VCN y la subred privada
 
