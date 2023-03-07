@@ -25,7 +25,7 @@ Una vez finalizada la creación de la VCN procederemos a configurar las listas d
 Navegar a Subnets -> public subnet-VCN -> Default Security List for VCN  -> Add Ingress Rule y agregar la siguiente ruta
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/PublicSL.png)
 
-Procederemos a editar la lista de seguridad de la sub red privada, Navegar a Subnets -> private subnet-VCN -> Default Security List for VCN  -> Add Ingress Rule y agregar la siguiente ruta
+Procederemos a editar la lista de seguridad de la sub red privada, navegar a Subnets -> private subnet-VCN -> security list for private subnet-VCN  -> Add Ingress Rule y agregar la siguiente ruta
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/PrivateSL.png)
 
 # 1. Creación de Container Instance
