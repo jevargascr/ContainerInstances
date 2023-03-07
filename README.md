@@ -36,16 +36,16 @@ Procederemos a editar la lista de seguridad de la sub red privada, navegar a Sub
 
 ### Menu principal >Developer Services > Container instances
 
-![](https://github.com/jevargascr/ContainerInstances/blob/main/images/ContainerInstance1.png)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/ContainerInstance.png)
 
 ## Configuración de la instancia
 Debemos ingresar la informacion del nombre de la instancia, AD, Shape y capacidades de computo(OCPU y Memoria RAM)
 
-![](https://github.com/jevargascr/ContainerInstances/blob/main/images/ContainerInstance2.png)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/ContainerInstance1.png)
 
 En la parte de Networking seleccionamos la VCN y la subred privada
 
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_ci_10.jpg)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/ContainerInstance2.png)
 
 ### Configuración de los contenedores
 En esta parte vamos a asignar los nombres de los contenedores, para ello seleccionamos las imagenes a utilizar y creamos las variables de ambiente que necesita el contenedor para funcionar adecuadamente. Para el laboratorio vamos a utilizar las imagenes publicas del Docker Hub
