@@ -16,10 +16,10 @@
 # 1. Creación de las Redes
 ### Menu principal > Networking > Virtual Cloud Networks
 Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defecto “Create VCN with Internet Connectivity” e introduciremos los siguientes valores:
-* VCN name: VCN
-* VCN IPv4 CIDR block: 30.0.0.0/16
-* public subnet - IPv4 CIDR block: 30.0.0.0/24
-* private subnet - IPv4 CIDR block: 30.0.1.0/24
+* **VCN name:** VCN
+* **VCN IPv4 CIDR block:** 30.0.0.0/16
+* **public subnet - IPv4 CIDR block:** 30.0.0.0/24
+* **private subnet - IPv4 CIDR block:** 30.0.1.0/24
 
 
 # 1. Creación de Container Instance
