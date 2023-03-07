@@ -7,13 +7,11 @@
 
 #### Prerrequisitos para la realizacion del Laboratorio
 * Creacion de VCN y subredes, una publica y una privada
-* Creacion de Internet Gateway y entrada en la tabla de rutas para la subred publica
-* Creacion de NAT Gateway y entrada en la tabla de rutas para la subred privada
 * Configuracion de Security Lists:
   + Para la subred publica permitir el trafico por los puertos 80 y 3306
   + Para la subred privada permitir todo el trafico desde la subred publica
   
-# 1. Creación de la Rede
+# 1. Prerrequisitos creación de la Rede
 ### Menu principal > Networking > Virtual Cloud Networks
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN.png)
 Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defecto “Create VCN with Internet Connectivity” e introduciremos los siguientes valores:
