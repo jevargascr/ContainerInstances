@@ -59,10 +59,10 @@ Configuracion de las variables de ambiente necesarias para el despliegue del con
 
 Variable  | Value
 ------------- | -------------
-WORDPRESS_DB_HOST  | 127.0.0.1
-WORDPRESS_DB_USER  | wordpress
-WORDPRESS_DB_PASSWORD  | wordpress
-WORDPRESS_DB_NAME  | wordpress
+MYSQL_ROOT_PASSWORD | wordpressonmysql
+MYSQL_DATABASE | wordpress
+MYSQL_USER  | wordpress
+YSQL_PASSWORD  | wordpress
 
 Click en crear another container
 
@@ -75,6 +75,12 @@ Asignamos un nombre al container y seleccionamos la imagen a descargar desde el 
 
 Configuracion de las variables de ambiente necesarias para el despliegue del container Wordpress
 El valor de la variable WORDPRESS_DB_HOST corresponde a la IP seleccionada durante la creacion del Container Instance en la parte de Networking
+Variable  | Value
+------------- | -------------
+WORDPRESS_DB_HOST  | 127.0.0.1
+WORDPRESS_DB_USER  | wordpress
+WORDPRESS_DB_PASSWORD  | wordpress
+WORDPRESS_DB_NAME  | wordpress
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_ci_11.jpg)
 
