@@ -20,7 +20,7 @@ Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defe
 * **Public subnet - IPv4 CIDR block:** 30.0.0.0/24
 * **Private subnet - IPv4 CIDR block:** 30.0.1.0/24
 
-![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN111.png)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN1111.png)
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN2.png)
 
 Una vez finalizada la creación de la VCN procederemos a configurar las listas de seguridad.
