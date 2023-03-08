@@ -75,7 +75,7 @@ YSQL_PASSWORD  | wordpress
 
 Click en crear another container
 
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_4.jpg)
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/mysql-vars.jpg)
 
 ### 2.1.2 El segundo container a crear es el de Wordpress
 Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
