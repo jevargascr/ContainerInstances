@@ -25,6 +25,12 @@ Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defe
 
 Una vez finalizada la creación de la VCN procederemos a configurar las listas de seguridad.
 
+Ingresamos a la VCN creada
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN4.png)
+
+Y nos ubicamos en las sunedes
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN5.png)
+
 Navegar a Subnets -> public subnet-VCN -> Default Security List for VCN  -> Add Ingress Rule y agregar la siguiente ruta
 * **Source CIDR:** 0.0.0.0/0
 * **Destination Port Range:** 80,3306
