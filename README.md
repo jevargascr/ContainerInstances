@@ -28,7 +28,7 @@ Una vez finalizada la creación de la VCN procederemos a configurar las listas d
 Ingresamos a la VCN creada
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN3.png)
 
-Y nos ubicamos en las sunedes
+Y nos ubicamos en las sudredes
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN5.png)
 
 Navegar a Subnets -> public subnet-VCN -> Default Security List for VCN  -> Add Ingress Rule y agregar la siguiente ruta
