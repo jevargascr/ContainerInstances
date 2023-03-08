@@ -26,7 +26,7 @@ Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defe
 Una vez finalizada la creación de la VCN procederemos a configurar las listas de seguridad.
 
 Ingresamos a la VCN creada
-![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN4.png)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN3.png)
 
 Y nos ubicamos en las sunedes
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN5.png)
