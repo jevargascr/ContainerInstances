@@ -1,4 +1,4 @@
-# Bienvenidos a Oracle Racing To The Cloud
+# Bienvenidos a Oracle Racing to the Cloud
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/red-bull-rb18.jpg)
 ## Laboratorio Container Instances 
 ## Despliegue solución Wordpress con MySQL
