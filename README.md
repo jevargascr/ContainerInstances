@@ -1,12 +1,12 @@
 # Bienvenidos a Oracle Racing To The Cloud
 ## Laboratorio Container Instances 
 ## Despliegue solución Wordpress con MySQL
-#### El laboratorio consiste en el despliegue de dos containers dentro de un Container Instances, el primer contenedor almacenara la solución de Wordpress y el segundo contenedor la base de datos MySQL. La seguridad es lo más importante por lo que estos contenedores estarán en una sub red privada y la solución será expuesta por un balanceador de cargas público como protección a posibles ciberataques!!!
+#### El laboratorio consiste en el despliegue de dos Containers dentro de un Container Instances, el primer contenedor almacenara la solución de Wordpress y el segundo contenedor la base de datos MySQL. La seguridad es lo más importante por lo que estos contenedores estarán en una sub red privada y la solución será expuesta por un balanceador de cargas público como protección a posibles ciberataques!!!
 
 La siguiente imagen muestra la arquitectura objetivo:
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Arquitectura.png)
 
-#### Prerrequisitos para la realizacion del Laboratorio
+#### Prerrequisitos para la realizacion del laboratorio
 * Creacion de un Compartment
 * Creacion de VCN y subredes, una publica y una privada
 * Configuracion de Security Lists:
@@ -14,6 +14,10 @@ La siguiente imagen muestra la arquitectura objetivo:
   + Para la subred privada permitir el trafico por los puertos 80 y 3306 desde la VCN
   
 ## Prerrequisitos creación de la rede
+### Menu principal > Identity & Security > Compartments > Create Compartment
+Crearemos el compartment donde aprovisionaremos todos los recursos
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Compartment.png)
+
 ### Menu principal > Networking > Virtual Cloud Networks
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN.png)
 Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defecto “Create VCN with Internet Connectivity” e introduciremos los siguientes valores:
