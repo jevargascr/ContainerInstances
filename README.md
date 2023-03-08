@@ -8,8 +8,8 @@
 #### Prerrequisitos para la realizacion del Laboratorio
 * Creacion de VCN y subredes, una publica y una privada
 * Configuracion de Security Lists:
-  + Para la subred publica permitir el trafico por los puertos 80 y 3306
-  + Para la subred privada permitir todo el trafico desde la subred publica
+  + Para la subred publica permitir el trafico por los puertos 80 y 3306 desde cualquier origen
+  + Para la subred privada permitir el trafico por los puertos 80 y 3306 desde la VCN
   
 ## Prerrequisitos creación de la rede
 ### Menu principal > Networking > Virtual Cloud Networks
