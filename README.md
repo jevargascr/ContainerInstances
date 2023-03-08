@@ -31,12 +31,12 @@ Ingresamos a la VCN creada
 Y nos ubicamos en las sudredes
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN5.png)
 
-Navegar a Subnets -> public subnet-VCN -> Default Security List for VCN  -> Add Ingress Rule y agregar la siguiente ruta
+Subred Publica: Navegar a Subnets -> public subnet-VCN -> Default Security List for VCN  -> Add Ingress Rule y agregar la siguiente ruta
 * **Source CIDR:** 0.0.0.0/0
 * **Destination Port Range:** 80,3306
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/PublicSL.png)
 
-Procederemos a editar la lista de seguridad de la sub red privada, navegar a Subnets -> private subnet-VCN -> security list for private subnet-VCN  -> Add Ingress Rule y agregar la siguiente ruta
+Procedemos a regresar a las subredes y Subred Privada: Navegar a Subnets -> private subnet-VCN -> security list for private subnet-VCN  -> Add Ingress Rule y agregar la siguiente ruta
 * **Source CIDR:** 30.0.0.0/16
 * **Destination Port Range:** 80,3306
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/PrivateSL.png)
