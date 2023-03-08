@@ -1,4 +1,4 @@
-# Bienvenidos a Oracle Racing to the Cloud
+# <div align="center">Bienvenidos a Oracle Racing to the Cloud </div>
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/red-bull-rb18.jpg)
 ## Laboratorio container instances 
 ## Despliegue solución Wordpress con MySQL
