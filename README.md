@@ -18,12 +18,12 @@ La siguiente imagen muestra la arquitectura objetivo:
   
 ### Prerrequisitos
 #### Compartment:
-##### Menu principal > Identity & Security > Compartments > Create Compartment
+#### Menu principal > Identity & Security > Compartments > Create Compartment
 Crearemos el compartment donde aprovisionaremos todos los recursos
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Compartment.png)
 
 #### Red:
-##### Menu principal > Networking > Virtual Cloud Networks
+#### Menu principal > Networking > Virtual Cloud Networks
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN.png)
 Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defecto “Create VCN with Internet Connectivity” e introduciremos los siguientes valores:
 * **VCN name:** VCN
