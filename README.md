@@ -16,12 +16,12 @@ La siguiente imagen muestra la arquitectura objetivo:
   + Para la subred privada permitir el trafico por los puertos 80 y 3306 desde la VCN
   
 ## Prerrequisitos
-### Compartment
+### Compartment:
 #### Menu principal > Identity & Security > Compartments > Create Compartment
 Crearemos el compartment donde aprovisionaremos todos los recursos
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Compartment.png)
 
-### Red
+### Red:
 #### Menu principal > Networking > Virtual Cloud Networks
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN.png)
 Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defecto “Create VCN with Internet Connectivity” e introduciremos los siguientes valores:
