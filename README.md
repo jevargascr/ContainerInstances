@@ -52,7 +52,7 @@ Debemos ingresar la informacion del nombre de la instancia, AD, Shape y capacida
 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container1.png)
 
-En la parte de Networking seleccionamos la VCN y la subred privada
+En la parte de Networking seleccionamos la VCN y la subred privada, además en las opciones avanzadas habilitar Always
 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container2.png)
 
