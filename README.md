@@ -7,6 +7,7 @@ La siguiente imagen muestra la arquitectura objetivo:
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Arquitectura.png)
 
 #### Prerrequisitos para la realizacion del Laboratorio
+* Creacion de un Compartment
 * Creacion de VCN y subredes, una publica y una privada
 * Configuracion de Security Lists:
   + Para la subred publica permitir el trafico por los puertos 80 y 3306 desde cualquier origen
