@@ -152,7 +152,7 @@ Activamos los logs del LB
 Una vez completado el flujo de creación veremos el status de ACTIVE y en color verde el servicio y nos posicionaremos en los Backend Sets, ingresaremos al creado por default 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_7.png)
 
-El backend corresponde a la IP privada del Container Instance
+Navegaremos a los Backends y agregaremos un nuevo Backend con el botón Add Backends, seleccionaremos la opción de IP Address e ingresaremos la la Private IP del Container Instance y el puerto 80
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_8.png)
 
 
