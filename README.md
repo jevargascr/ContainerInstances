@@ -92,7 +92,7 @@ WORDPRESS_DB_NAME  | wordpress
 Click en + Another container
 
 ##### 2.2.2 El segundo container a crear es el de MySQL
-Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub presionando Select Image
+Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub presionando Select Image > External registry
 * **Name:** mysql
 * **Image:** mysql
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container6.png)
