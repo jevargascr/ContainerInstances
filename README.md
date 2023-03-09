@@ -117,28 +117,28 @@ Favor tomar nota de la Private IP address que utilizaremos en los balanceadores
 
 Para acceder de forma publica al servicio de Wordpress es necesario configurar un Load Balancer para recibir el trafico desde internet
 **Menu principal > Networking > Load Balancers**
-![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_1.jpg)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_1.png)
 
 Asignamos el nombre del LB y seleccionamos las opciones de visibilidad publica e IP
-![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_2.jpg)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_2.png)
 
 Seleccionamos la VCN y la subred publica ceeada durante los prerrequisitos
-![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_3.jpg)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_3.png)
 
 Luego seleccionamos el algoritmo de balanceo del trafico y el protocolo y puerto para el Health Check
-![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_4.jpg)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_4.png)
 
 Configuramos el listener de tipo HTTP (las peticiones ingresan por el puerto 80)
-![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_5.jpg)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_5.png)
 
 Activamos los logs del LB
-![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_6.jpg)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_6.png)
 
 Adicionamos el Backend, este corresponde a la Container Instance
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_7.jpg)
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_7.png)
 
 El backend corresponde a la IP privada del Container Instance
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_8.jpg)
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_8.png)
 
 
 
