@@ -98,9 +98,11 @@ MYSQL_DATABASE | wordpress
 MYSQL_USER  | wordpress
 YSQL_PASSWORD  | wordpress
 
-Click en crear another container
-
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container8.png)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container9.png)
+Click en Create
+
+
 
 ### 2.1.2 El segundo container a crear es el de Wordpress
 Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
