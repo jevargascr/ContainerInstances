@@ -137,7 +137,7 @@ Asignamos el nombre del LB y seleccionamos las opciones de visibilidad publica e
 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_2.png)
 
-Seleccionamos la VCN y la subred publica ceeada durante los prerrequisitos
+Seleccionamos la VCN y la subred publica creada durante los prerrequisitos
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_3.png)
 
 Luego seleccionamos el algoritmo de balanceo del trafico y el protocolo y puerto para el Health Check
