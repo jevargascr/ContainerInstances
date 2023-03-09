@@ -109,6 +109,8 @@ Click Next
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container10.png)
 Click en Create
 
+Una vez finalizado el flujo de creación podremos ver la información de nuestro Conteiner Instance y los Containers creados.
+Favor tomar nota de la Private IP address que utilizaremos en los balanceadores
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container11.png)
 
 ### 3. Creación del Load Balancer
