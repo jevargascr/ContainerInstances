@@ -30,7 +30,7 @@ Asegurarnos que estamos utilizando el compartment previamente creado
 
 Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defecto “Create VCN with Internet Connectivity” e introduciremos los siguientes valores:
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN1.png)
-<img src="https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN1.png"  width="800" height="400">
+<img src="https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN1.png"  width="600" height="400">
 
 * **VCN name:** VCN
 * **VCN IPv4 CIDR block:** 30.0.0.0/16
