@@ -104,6 +104,7 @@ Además también se debe de expandir las opciones avanzadas > Statup options y a
 --default-authentication-plugin=mysql_native_password 
 ```
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container9.png)
+Click Next
 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container10.png)
 Click en Create
