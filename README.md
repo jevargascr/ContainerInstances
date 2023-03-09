@@ -97,6 +97,10 @@ MYSQL_ROOT_PASSWORD | wordpressonmysql
 MYSQL_DATABASE | wordpress
 MYSQL_USER  | wordpress
 YSQL_PASSWORD  | wordpress
+Además también se debe de expandir las opciones avanzadas > Statup options y agregar el siguiente comando en la sección Entrypoint arguments
+´´´
+--default-authentication-plugin=mysql_native_password 
+´´´
 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container8.png)
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container9.png)
@@ -117,6 +121,8 @@ WORDPRESS_DB_HOST  | 127.0.0.1
 WORDPRESS_DB_USER  | wordpress
 WORDPRESS_DB_PASSWORD  | wordpress
 WORDPRESS_DB_NAME  | wordpress
+
+
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_ci_11.jpg)
 
