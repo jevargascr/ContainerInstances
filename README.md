@@ -27,6 +27,7 @@ Crearemos el compartment donde aprovisionaremos todos los recursos
 **Menu principal > Networking > Virtual Cloud Networks**</br>
 Asegurarnos que estamos utilizando el compartment previamente creado
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN.png)
+
 Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defecto “Create VCN with Internet Connectivity” e introduciremos los siguientes valores:
 * **VCN name:** VCN
 * **VCN IPv4 CIDR block:** 30.0.0.0/16
