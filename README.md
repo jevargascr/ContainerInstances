@@ -15,13 +15,13 @@ La siguiente imagen muestra la arquitectura objetivo:
   + Para la subred publica permitir el trafico por los puertos 80 y 3306 desde cualquier origen
   + Para la subred privada permitir el trafico por los puertos 80 y 3306 desde la VCN
   
-### Prerrequisitos
-#### Compartment:
+### 1. Prerrequisitos
+#### 1.1 Compartment:
 **Menu principal > Identity & Security > Compartments > Create Compartment**</br>
 Crearemos el compartment donde aprovisionaremos todos los recursos
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Compartment.png)
 
-#### Red:
+#### 1.2 Red:
 **Menu principal > Networking > Virtual Cloud Networks**
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN.png)
 Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defecto “Create VCN with Internet Connectivity” e introduciremos los siguientes valores:
@@ -50,21 +50,21 @@ Y nos ubicamos en las sudredes
 * **Destination Port Range:** 80,3306
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/PrivateSL.png)
 
-### 1. Creación de Container Instance
+### 2. Creación de Container Instance
 **Menu principal >Developer Services > Container instances**
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/ContainerInstance.png)
 
-#### 1.1 Configuración de la instancia
+#### 2.1 Configuración de la instancia
 Debemos ingresar la informacion del nombre de la instancia, AD, Shape y capacidades de computo(OCPU y Memoria RAM)
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container1.png)
 
 En la parte de Networking seleccionamos la VCN y la subred privada, además en las opciones avanzadas habilitar Always
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container2.png)
 
-#### 1.2 Configuración de los contenedores
+#### 2.2 Configuración de los contenedores
 En esta parte vamos a asignar los nombres de los contenedores, para ello seleccionamos las imagenes a utilizar y creamos las variables de ambiente que necesita el contenedor para funcionar adecuadamente. Para el laboratorio vamos a utilizar las imagenes publicas del Docker Hub
 
-##### 1.2.1 El primer container a crear es el de Wordpress
+##### 2.2.1 El primer container a crear es el de Wordpress
 Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_5.jpg)
 
@@ -82,7 +82,7 @@ Click en Create
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_7.jpg)
 
-##### 2.1.1 El primer container a crear es el de MySQL
+##### 2.2.2 El primer container a crear es el de MySQL
 Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_2.jpg)
 
