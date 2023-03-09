@@ -55,7 +55,7 @@ Y nos ubicamos en las sudredes
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/PublicSL.png)
 
 ### 2. Creación de Container Instance
-**Menu principal >Developer Services > Container instances**
+**Menu principal >Developer Services > Container instances > Create container instance**
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/ContainerInstance.png)
 
 #### 2.1 Configuración de la instancia
