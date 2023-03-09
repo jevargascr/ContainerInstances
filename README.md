@@ -68,6 +68,7 @@ En esta parte vamos a asignar los nombres de los contenedores, para ello selecci
 Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/Container3.png)
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/Container4.png)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container2.png)
 
 Configuracion de las variables de ambiente necesarias para el despliegue del container Wordpress
 El valor de la variable WORDPRESS_DB_HOST corresponde a la IP seleccionada durante la creacion del Container Instance en la parte de Networking
