@@ -67,8 +67,8 @@ Debemos ingresar la informacion del nombre de la instancia, AD, Shape y capacida
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container1.png)
 
 En la parte de Networking seleccionamos la VCN y la subred privada, además en las opciones avanzadas "Show advanced options" habilitar Always</br>
-**Nota:** Show advanced options no de Networing si no la del final del formulario
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container2.png)
+**Nota:** Show advanced options no de Networing si no la del final del formulario
 
 #### 2.2 Configuración de los contenedores
 En esta parte vamos a asignar los nombres de los contenedores, para ello seleccionamos las imagenes a utilizar y creamos las variables de ambiente que necesita el contenedor para funcionar adecuadamente. Para el laboratorio vamos a utilizar las imagenes publicas del Docker Hub
