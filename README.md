@@ -19,6 +19,7 @@ La siguiente imagen muestra la arquitectura objetivo:
 #### 1.1 Compartment:
 **Menu principal > Identity & Security > Compartments > Create Compartment**</br>
 Crearemos el compartment donde aprovisionaremos todos los recursos
+* **Name:** LabContainers
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Compartment.png)
 
 #### 1.2 Red:
@@ -134,7 +135,7 @@ Configuramos el listener de tipo HTTP (las peticiones ingresan por el puerto 80)
 Activamos los logs del LB
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_6.png)
 
-Adicionamos el Backend, este corresponde a la Container Instance
+Una vez completado el flujo de creación entraremos al balanceador, navegaremos a la sección de Backend Sets, ingresaremos al creado por default 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_7.png)
 
 El backend corresponde a la IP privada del Container Instance
