@@ -72,7 +72,7 @@ Asignamos un nombre al container y seleccionamos la imagen a descargar desde el 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container4.png)
 
 Configuracion de las variables de ambiente necesarias para el despliegue del container Wordpress</br>
-A continuación, configuremos algunas variables de entorno, como se describe en la sección Cómo usar esta imagen en [Links with title](https://hub.docker.com/_/wordpress/ "la documentación de la imagen") . Se establecen las siguientes variables y valores.
+A continuación, configuremos algunas variables de entorno, como se describe en la sección Cómo usar esta imagen en [la documentación de la imagen](https://hub.docker.com/_/wordpress/ "") . Se establecen las siguientes variables y valores.
 Variable  | Value
 ------------- | -------------
 WORDPRESS_DB_HOST  | 127.0.0.1
