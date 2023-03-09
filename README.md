@@ -71,7 +71,7 @@ Asignamos un nombre al container y seleccionamos la imagen a descargar desde el 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container3.png)
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container4.png)
 
-Configuracion de las variables de ambiente necesarias para el despliegue del container Wordpress
+Configuracion de las variables de ambiente necesarias para el despliegue del container Wordpress</br>
 El valor de la variable WORDPRESS_DB_HOST corresponde a la IP seleccionada durante la creacion del Container Instance en la parte de Networking
 Variable  | Value
 ------------- | -------------
