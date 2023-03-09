@@ -140,7 +140,7 @@ Asignamos el nombre del LB y seleccionamos las opciones de visibilidad publica e
 Seleccionamos la VCN y la subred publica creada durante los prerrequisitos
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_3.png)
 
-Luego seleccionamos el algoritmo de balanceo del trafico y el protocolo y puerto para el Health Check
+Luego seleccionamos el algoritmo de balanceo del trafico y el protocolo y puerto para el Health Check, importante seleccionar TCP en el Protocol
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_4.png)
 
 Configuramos el listener de tipo HTTP (las peticiones ingresan por el puerto 80)
