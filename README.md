@@ -142,9 +142,6 @@ El backend corresponde a la IP privada del Container Instance
 
 
 
-
-
-
 #### Material adicional:
 
 - [Containers](https://docs.oracle.com/en/learn/manage-oci-container-instances/index.html#task-1-create-and-configure-a-container-instance/) - OCI Container Instances 
