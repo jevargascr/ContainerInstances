@@ -20,6 +20,7 @@ La siguiente imagen muestra la arquitectura objetivo:
 **Menu principal > Identity & Security > Compartments > Create Compartment**</br>
 Crearemos el compartment donde aprovisionaremos todos los recursos
 * **Name:** LabContainers
+
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Compartment.png)
 
 #### 1.2 Red:
