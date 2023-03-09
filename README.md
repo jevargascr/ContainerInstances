@@ -168,7 +168,7 @@ Una vez confirmado que la pagina cargo correctamente tomar una captura de pantal
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_10.png)
 
 # <div align="center">Felicidades ha completado esta qualifying !!! </div>
-![](https://github.com/jevargascr/ContainerInstances/blob/main/images/pole-position-qualifier.png)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/pole-position-qualifier.jpg)
 
 
 #### Material adicional:
