@@ -97,44 +97,23 @@ MYSQL_ROOT_PASSWORD | wordpressonmysql
 MYSQL_DATABASE | wordpress
 MYSQL_USER  | wordpress
 YSQL_PASSWORD  | wordpress
+
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container8.png)
 Además también se debe de expandir las opciones avanzadas > Statup options y agregar el siguiente comando en la sección Entrypoint arguments
 ´´´
 --default-authentication-plugin=mysql_native_password 
 ´´´
-
-![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container8.png)
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container9.png)
+
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container10.png)
 Click en Create
 
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container11.png)
 
-
-### 2.1.2 El segundo container a crear es el de Wordpress
-Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
-
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_5.jpg)
-
-Configuracion de las variables de ambiente necesarias para el despliegue del container Wordpress
-El valor de la variable WORDPRESS_DB_HOST corresponde a la IP seleccionada durante la creacion del Container Instance en la parte de Networking
-Variable  | Value
-------------- | -------------
-WORDPRESS_DB_HOST  | 127.0.0.1
-WORDPRESS_DB_USER  | wordpress
-WORDPRESS_DB_PASSWORD  | wordpress
-WORDPRESS_DB_NAME  | wordpress
-
-
-
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_ci_11.jpg)
-
-Click en Create
-
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_7.jpg)
-
-# 2. Creación del Load Balancer
+### 3. Creación del Load Balancer
 
 #### Para acceder de forma publica al servicio de Wordpress es necesario configurar un Load Balancer para recibir el trafico desde internet
-
-### Menu principal > Networking > Load Balancers
+**Menu principal > Networking > Load Balancers**
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_1.jpg)
 
