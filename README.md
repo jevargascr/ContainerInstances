@@ -44,15 +44,15 @@ Una vez finalizada la creación de la VCN procederemos a ver la VCN y configurar
 Y nos ubicamos en las sudredes
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN5.png)
 
-**Subred Publica:** Navegar a Subnets -> public subnet-VCN -> Default Security List for VCN  -> Add Ingress Rule y agregar la siguiente ruta
-* **Source CIDR:** 0.0.0.0/0
-* **Destination Port Range:** 80,3306
-![](https://github.com/jevargascr/ContainerInstances/blob/main/images/PublicSL.png)
-
 **Subred Privada:** Procedemos a regresar a las subredes y  Navegar a Subnets -> private subnet-VCN -> security list for private subnet-VCN  -> Add Ingress Rule y agregar la siguiente ruta
 * **Source CIDR:** 30.0.0.0/16
 * **Destination Port Range:** 80,3306
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/PrivateSL.png)
+
+**Subred Publica:** Navegar a Subnets -> public subnet-VCN -> Default Security List for VCN  -> Add Ingress Rule y agregar la siguiente ruta
+* **Source CIDR:** 0.0.0.0/0
+* **Destination Port Range:** 80,3306
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/PublicSL.png)
 
 ### 2. Creación de Container Instance
 **Menu principal >Developer Services > Container instances**
