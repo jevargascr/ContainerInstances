@@ -115,6 +115,7 @@ Además también se debe de expandir las opciones avanzadas > Statup options y a
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container9.png)
 Click Next
 
+Revisar los detalles y continuar
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container10.png)
 Click en Create
 
