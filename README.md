@@ -144,6 +144,8 @@ Luego seleccionamos el algoritmo de balanceo del trafico y el protocolo y puerto
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_4.png)
 
 Configuramos el listener de tipo HTTP (las peticiones ingresan por el puerto 80)
+* **Listener Name:** listener
+
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_5.png)
 
 Activamos los logs del LB
