@@ -161,7 +161,7 @@ Nos posicionaremos ahora en los Backend Sets, ingresaremos al creado por default
 Navegaremos a los Backends y agregaremos un nuevo Backend con el botón Add Backends, seleccionaremos la opción de IP Address e ingresaremos la la Private IP del Container Instance y el puerto 80
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_8.png)
 
-Una vez el Backend ha sido agregado regresamos a la página principal del balanceador, copiaremos la dirección pública del balanceador y la pegamos en un explorador
+Una vez el Backend ha sido agregado regresamos exitosamente el Health pasara a OK (verde) y podremos navegar a la página principal del balanceador, copiaremos la dirección pública del balanceador y la pegamos en un explorador
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_9.png)
 
 #### Material adicional:
