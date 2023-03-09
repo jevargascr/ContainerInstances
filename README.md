@@ -145,6 +145,7 @@ Luego seleccionamos el algoritmo de balanceo del trafico y el protocolo y puerto
 
 Configuramos el listener de tipo HTTP (las peticiones ingresan por el puerto 80)
 * **Listener Name:** listener
+* **Specify the type of traffic your listener handles:** HTTP
 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_5.png)
 
