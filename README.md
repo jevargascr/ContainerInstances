@@ -27,6 +27,7 @@ Crearemos el compartment donde aprovisionaremos todos los recursos
 **Menu principal > Networking > Virtual Cloud Networks**</br>
 Asegurarnos que estamos utilizando el compartment previamente creado
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN.png)
+<img src="https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN.png"  width="600" height="300">
 
 Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defecto “Create VCN with Internet Connectivity” e introduciremos los siguientes valores:
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN1.png)
