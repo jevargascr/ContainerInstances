@@ -164,6 +164,13 @@ Navegaremos a los Backends y agregaremos un nuevo Backend con el botón Add Back
 Una vez el Backend ha sido agregado regresamos exitosamente el Health pasara a OK (verde) y podremos navegar a la página principal del balanceador, copiaremos la dirección pública del balanceador y la pegamos en un explorador
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_9.png)
 
+Una vez confirmado que la pagina cargo correctamente tomar una captura de pantalla y enviar la evidencia al comisario de carrera al siguiente correo @oracle.com
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_10.png)
+
+# <div align="center">Felicidades ha completado esta qualifying !!! </div>
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/pole-position-qualifier.png)
+
+
 #### Material adicional:
 
 - [Containers](https://docs.oracle.com/en/learn/manage-oci-container-instances/index.html#task-1-create-and-configure-a-container-instance/) - OCI Container Instances 
