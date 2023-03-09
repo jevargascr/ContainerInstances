@@ -66,6 +66,8 @@ En esta parte vamos a asignar los nombres de los contenedores, para ello selecci
 
 ##### 2.2.1 El primer container a crear es el de Wordpress
 Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub presionando Select Image
+* **Name:** wordpress
+* **Image:** wordpress
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container3.png)
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container4.png)
 
