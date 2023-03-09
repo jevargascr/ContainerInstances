@@ -152,7 +152,8 @@ Configuramos el listener de tipo HTTP (las peticiones ingresan por el puerto 80)
 Activamos los logs del LB
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_6.png)
 
-Una vez completado el flujo de creación veremos el status de ACTIVE y en color verde el servicio y nos posicionaremos en los Backend Sets, ingresaremos al creado por default 
+Una vez completado el flujo de creación veremos el status ACTIVE y en color verde el servicio, como no hemos configurado aun los Backend el status del Health sera Incomplete </br> 
+Nos posicionaremos ahora en los Backend Sets, ingresaremos al creado por default 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_7.png)
 
 Navegaremos a los Backends y agregaremos un nuevo Backend con el botón Add Backends, seleccionaremos la opción de IP Address e ingresaremos la la Private IP del Container Instance y el puerto 80
