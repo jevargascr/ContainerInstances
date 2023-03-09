@@ -105,7 +105,7 @@ Variable  | Value
 MYSQL_ROOT_PASSWORD | wordpressonmysql
 MYSQL_DATABASE | wordpress
 MYSQL_USER  | wordpress
-YSQL_PASSWORD  | wordpress
+MYSQL_PASSWORD  | wordpress
 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container8.png)
 Además también se debe de expandir las opciones avanzadas > Statup options y agregar el siguiente comando en la sección Entrypoint arguments
