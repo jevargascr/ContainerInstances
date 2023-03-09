@@ -65,7 +65,7 @@ En la parte de Networking seleccionamos la VCN y la subred privada, además en l
 En esta parte vamos a asignar los nombres de los contenedores, para ello seleccionamos las imagenes a utilizar y creamos las variables de ambiente que necesita el contenedor para funcionar adecuadamente. Para el laboratorio vamos a utilizar las imagenes publicas del Docker Hub
 
 ##### 2.2.1 El primer container a crear es el de Wordpress
-Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
+Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub presionando Select Image
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container3.png)
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container4.png)
 
