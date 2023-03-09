@@ -100,10 +100,9 @@ YSQL_PASSWORD  | wordpress
 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container8.png)
 Además también se debe de expandir las opciones avanzadas > Statup options y agregar el siguiente comando en la sección Entrypoint arguments
-´´´
+```sh
 --default-authentication-plugin=mysql_native_password 
-´´´
-hooo
+```
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container9.png)
 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container10.png)
