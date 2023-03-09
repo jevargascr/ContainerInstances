@@ -61,10 +61,10 @@ Debemos ingresar la informacion del nombre de la instancia, AD, Shape y capacida
 En la parte de Networking seleccionamos la VCN y la subred privada, además en las opciones avanzadas habilitar Always
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container2.png)
 
-#### 2.1 Configuración de los contenedores
+#### 1.2 Configuración de los contenedores
 En esta parte vamos a asignar los nombres de los contenedores, para ello seleccionamos las imagenes a utilizar y creamos las variables de ambiente que necesita el contenedor para funcionar adecuadamente. Para el laboratorio vamos a utilizar las imagenes publicas del Docker Hub
 
-##### 2.1.1 El primer container a crear es el de Wordpress
+##### 1.2.1 El primer container a crear es el de Wordpress
 Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_5.jpg)
 
