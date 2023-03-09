@@ -133,6 +133,8 @@ Create Load Balancer
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_1.png)
 
 Asignamos el nombre del LB y seleccionamos las opciones de visibilidad publica e IP
+* **Name:** lb
+
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_2.png)
 
 Seleccionamos la VCN y la subred publica ceeada durante los prerrequisitos
