@@ -71,7 +71,7 @@ Asignamos un nombre al container y seleccionamos la imagen a descargar desde el 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container3.png)
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container4.png)
 
-A continuación, configuremos algunas variables de entorno, como se describe en la sección Cómo usar esta imagen en [la documentación de la imagen](https://hub.docker.com/_/wordpress/ "") . Se establecen las siguientes variables y valores.
+A continuación, configuremos algunas variables de entorno como se describe en la sección Cómo usar esta imagen en [la documentación de la imagen](https://hub.docker.com/_/wordpress/ "") . Se establecen las siguientes variables y valores.
 Variable  | Value
 ------------- | -------------
 WORDPRESS_DB_HOST  | 127.0.0.1
@@ -82,11 +82,14 @@ WORDPRESS_DB_NAME  | wordpress
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container5.png)
 Click en + Another container
 
-##### 2.2.2 El primer container a crear es el de MySQL
-Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_2.jpg)
+##### 2.2.2 El segundo container a crear es el de MySQL
+Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub presionando Select Image
+* **Name:** mysql
+* **Image:** mysql
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container6.png)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container7.png)
 
-Configuracion de las variables de ambiente necesarias para el despliegue del container MySQL
+A continuación, configuremos algunas variables de entorno como se describe en la sección Cómo usar esta imagen en [la documentación de la imagen](https://hub.docker.com/_/mysql/ "") . Se establecen las siguientes variables y valores.
 
 Variable  | Value
 ------------- | -------------
@@ -97,7 +100,7 @@ YSQL_PASSWORD  | wordpress
 
 Click en crear another container
 
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/mysql-vars.jpg)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container8.png)
 
 ### 2.1.2 El segundo container a crear es el de Wordpress
 Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
