@@ -149,11 +149,11 @@ Configuramos el listener de tipo HTTP (las peticiones ingresan por el puerto 80)
 Activamos los logs del LB
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_6.png)
 
-Una vez completado el flujo de creación entraremos al balanceador, navegaremos a la sección de Backend Sets, ingresaremos al creado por default 
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_7.png)
+Una vez completado el flujo de creación veremos el status de ACTIVE y en color verde el servicio y nos posicionaremos en los Backend Sets, ingresaremos al creado por default 
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_7.png)
 
 El backend corresponde a la IP privada del Container Instance
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_8.png)
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_8.png)
 
 
 
