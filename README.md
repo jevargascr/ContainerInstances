@@ -60,6 +60,10 @@ Y nos ubicamos en las sudredes
 
 #### 2.1 Configuración de la instancia
 Debemos ingresar la informacion del nombre de la instancia, AD, Shape y capacidades de computo(OCPU y Memoria RAM)
+* **Name:** WordPress
+* **OCPUs:** 2
+* **Memory:** 16
+
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container1.png)
 
 En la parte de Networking seleccionamos la VCN y la subred privada, además en las opciones avanzadas habilitar Always
