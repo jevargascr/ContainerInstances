@@ -29,7 +29,6 @@ Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defe
 * **VCN IPv4 CIDR block:** 30.0.0.0/16
 * **Public subnet - IPv4 CIDR block:** 30.0.0.0/24
 * **Private subnet - IPv4 CIDR block:** 30.0.1.0/24
-
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN1.png)
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN2.png)
 
@@ -52,26 +51,21 @@ Y nos ubicamos en las sudredes
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/PrivateSL.png)
 
 ### 1. Creación de Container Instance
-
 ##### Menu principal >Developer Services > Container instances
-
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/ContainerInstance.png)
 
-#### 1.1 Configuración de la instancia
+##### 1.1 Configuración de la instancia
 Debemos ingresar la informacion del nombre de la instancia, AD, Shape y capacidades de computo(OCPU y Memoria RAM)
-
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container1.png)
 
 En la parte de Networking seleccionamos la VCN y la subred privada, además en las opciones avanzadas habilitar Always
-
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container2.png)
 
-### 2.1 Configuración de los contenedores
+##### 2.1 Configuración de los contenedores
 En esta parte vamos a asignar los nombres de los contenedores, para ello seleccionamos las imagenes a utilizar y creamos las variables de ambiente que necesita el contenedor para funcionar adecuadamente. Para el laboratorio vamos a utilizar las imagenes publicas del Docker Hub
 
-### 2.1.1 El primer container a crear es el de Wordpress
+###### 2.1.1 El primer container a crear es el de Wordpress
 Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
-
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_5.jpg)
 
 Configuracion de las variables de ambiente necesarias para el despliegue del container Wordpress
@@ -84,14 +78,12 @@ WORDPRESS_DB_PASSWORD  | wordpress
 WORDPRESS_DB_NAME  | wordpress
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_ci_11.jpg)
-
 Click en Create
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_7.jpg)
 
-### 2.1.1 El primer container a crear es el de MySQL
+###### 2.1.1 El primer container a crear es el de MySQL
 Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
-
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_2.jpg)
 
 Configuracion de las variables de ambiente necesarias para el despliegue del container MySQL
