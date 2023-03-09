@@ -17,7 +17,7 @@ La siguiente imagen muestra la arquitectura objetivo:
   
 ### Prerrequisitos
 #### Compartment:
-**Menu principal > Identity & Security > Compartments > Create Compartment**
+**Menu principal > Identity & Security > Compartments > Create Compartment**</br>
 Crearemos el compartment donde aprovisionaremos todos los recursos
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Compartment.png)
 
