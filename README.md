@@ -24,7 +24,7 @@ Crearemos el compartment donde aprovisionaremos todos los recursos
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Compartment.png)
 
 #### 1.2 Red:
-**Menu principal > Networking > Virtual Cloud Networks**
+**Menu principal > Networking > Virtual Cloud Networks**</br>
 Asegurarnos que estamos utilizando el compartment previamente creado
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/VCN.png)
 Seleccionaremos la opción de Start VCN Wizard, dejaremos la selección por defecto “Create VCN with Internet Connectivity” e introduciremos los siguientes valores:
