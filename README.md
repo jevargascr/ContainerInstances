@@ -127,6 +127,7 @@ Favor tomar nota de la Private IP address que utilizaremos en los balanceadores
 
 Para acceder de forma publica al servicio de Wordpress es necesario configurar un Load Balancer para recibir el trafico desde internet
 **Menu principal > Networking > Load Balancers**
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb.png)
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_1.png)
 
 Asignamos el nombre del LB y seleccionamos las opciones de visibilidad publica e IP
