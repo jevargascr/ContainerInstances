@@ -1,7 +1,6 @@
+![](https://github.com/jevargascr/ContainerInstances/blob/main/images/red-bull-rb18.jpg)
 # <div align="center">Bienvenidos a Oracle Racing to the Cloud </div>
 ## Laboratorio container instances 
-![](https://github.com/jevargascr/ContainerInstances/blob/main/images/red-bull-rb18.jpg)
-
 ### Despliegue solución Wordpress con MySQL
 El laboratorio consiste en el despliegue de dos containers dentro de un container Instances, el primer contenedor almacenara la solución de Wordpress y el segundo contenedor la base de datos MySQL. 
 La seguridad es lo más importante por lo que estos contenedores estarán en una sub red privada y la solución será expuesta por un balanceador de cargas público como protección a posibles ciberataques!!!
