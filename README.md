@@ -166,7 +166,7 @@ Navegaremos a los Backends y agregaremos un nuevo Backend con el botón Add Back
 Una vez el Backend ha sido agregado regresamos exitosamente el Health pasara a OK (verde) y podremos navegar a la página principal del balanceador, copiaremos la dirección pública del balanceador y la pegamos en un explorador
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_9.png)
 
-Una vez confirmado que la pagina cargo correctamente tomar una captura de pantalla y enviar la evidencia al comisario de carrera al siguiente correo @oracle.com
+Una vez confirmado que la pagina cargo correctamente tomar una captura de pantalla y enviar la evidencia al comisario de carrera al siguiente correo jose.borda@oracle.com y jeffrey.vargas@oracle.com
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/create_lb_10.png)
 
 # <div align="center">Felicidades ha completado esta qualifying !!! </div>
