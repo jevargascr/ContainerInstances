@@ -110,7 +110,7 @@ MYSQL_USER  | wordpress
 MYSQL_PASSWORD  | wordpress
 
 ![](https://github.com/jevargascr/ContainerInstances/blob/main/images/Container8.png)
-Además también se debe de expandir las opciones avanzadas > Statup options y agregar el siguiente comando en la sección Entrypoint arguments
+Además también se debe de expandir las opciones avanzadas > Startup options y agregar el siguiente comando en la sección Entrypoint arguments
 ```sh
 --default-authentication-plugin=mysql_native_password
 ```
